@@ -1,0 +1,89 @@
+body {
+  background: black;
+  color: white;
+  font-family: monospace, arial;
+  margin: 0px;
+}
+::selection{
+  background: lawngreen;
+  color: white;
+}
+nav{
+  
+  background: #1c1c1c;
+  padding: 20px;
+  font-size: 30px;
+  
+}
+nav button{
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  user-select: none;
+  border: 0px;
+  transition: 0.5s;
+  margin-left: 10%;
+  height: 40px;
+  width: 100px;
+}
+nav button:hover{
+  background: lawngreen;
+}
+nav button:active{
+  background: linear-gradient(green, lawngreen, lawngreen, lawngreen);
+}
+nav button:focus{
+  background: linear-gradient(green, lawngreen, lawngreen, lawngreen);
+}
+.flex{
+  display: flex;
+}
+.nav-button-active{
+  border: 2px solid lawngreen;
+}
+.nav-button-active:hover{
+  border: 2px solid lawngreen;
+  background: transparent;
+}
+.nav-button-active {
+  border: 2px solid lawngreen;
+  background: transparent;
+  
+}
+button{
+  background: lawngreen;
+  cursor: pointer;
+  color: white;
+  user-select: none;
+  border: 0px;
+  transition: 0.5s;
+  margin-left: 10%;
+  height: 40px;
+  width: 100px;
+}
+ button:hover{
+  background: lime;
+}
+ button:active{
+  background: linear-gradient(green, lawngreen, lawngreen, lawngreen);
+}
+
+.nav-button-active:focus{
+  background: transparent;
+}
+.main{
+  font-size: 50px;
+  font-weight: bolder;
+}
+h{
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+h:hover{
+  color: lawngreen;
+}
+p{
+ line-height: 30px; 
+ word-spacing: 5px;
+}
